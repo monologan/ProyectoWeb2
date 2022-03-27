@@ -69,4 +69,11 @@ html {
 .custom-toggler.navbar-toggler {
   border-color: #fdffff; }
 
+.servicios .fa-solid {
+  color: #f05f40;
+  font-size: 6rem; }
+
+.servicios h3 {
+  font-weight: bold; }
+
 /*# sourceMappingURL=estilos.css.map */
