@@ -20,15 +20,15 @@
       <div class="container">
       <header class="encabezado">
         
-          <nav class="navbar navbar-expand-lg navbar-dark navbar fixed-top">
-
+          <nav class="navbar navbar-expand-md navbar-dark navbar fixed-top ">
+              <div class="container">
             <a class="navbar-brand" href="#!">Aulaideal.com</a>
             <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#menuprincipal">
               <span class="navbar-toggler-icon"></span>
             </button>
           
             <div class="collapse navbar-collapse" id="menuprincipal">
-              <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+              <ul class="navbar-nav ml-auto mt-2 mt-md-0">
 
                 <li class="nav-item active">
                   <a class="nav-link" href="#!">Inicio</a>
@@ -47,12 +47,13 @@
                 </li>
               </ul>
             </div>
+          </div>
           </nav>        
       </header>
       <div class="text-bienvenido text-center">
         <p class="h5">Bienvenidos a nuestro estudio</p>
         <h1 class="display-4 mb-3" >ENCANTADOS DE CONOCERTE</h1>
-        <a href="#"class="btn btn-primary btn-lg">Ponte en contacto</a>
+        <a href="#"class="btn btn-primary btn-lg" data-toggle="modal" data-target="#quienes-somos">Ponte en contacto</a>
       </div>
     </div>
   </section>
@@ -76,17 +77,17 @@
         <div class="row">
           
           <div class="col-md-4"><i class="fa-solid fa-briefcase"></i>
-            <h3>Aplicaciones para la nube</h3>
+            <h3 class="h5">Aplicaciones para la nube</h3>
             <p>Para empresa que requiera ampliar sus plataformas de gestion.</p>
 
         </div>
           <div class="col-md-4"><i class="fa-solid fa-bullhorn"></i>
-            <h3>Fabrica de Software</h3>
+            <h3 class="h5">Fabrica de Software</h3>
             <p>Servicios de mejora correctiva y evlutiva para sus aplicaciones.</p>
 
         </div>
           <div class="col-md-4"><i class="fa-solid fa-square-check"></i>
-            <h3>Diseño personalizado</h3>
+            <h3 class="h5">Diseño personalizado</h3>
             <p>Customiza hasta el ultimo pixel de tu App.  Infinitas posib</p>
 
         </div>
@@ -125,9 +126,30 @@
     </section>
 
 
+    <footer class="footer text-center py-3">
+      <div class="container">
+        <p>2022 @ Gerardo Valdes Todos los derechos reservados</p>
+      </div>
+    </footer>
 
-
-
+    <div class="modal fade" id="quienes-somos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="quienes-somos">Quienes Somos</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis sit deserunt, repudiandae, minima natus impedit eveniet temporibus tempore eum reprehenderit asperiores nostrum dolor officiis ipsa ea blanditiis accusamus repellendus sed.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            
+        </div>
+      </div>
+    </div>
 
     
     <!-- Optional JavaScript -->

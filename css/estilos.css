@@ -25,7 +25,11 @@ html {
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
-  text-align: center; }
+  text-align: center;
+  padding: .6rem;
+  text-transform: uppercase;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease; }
 
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .active > .nav-link,
@@ -41,7 +45,7 @@ html {
 
 .text-bienvenido {
   color: white;
-  margin-top: 6rem; }
+  margin-top: 9rem; }
 
 #menuprincipal {
   clear: both; }
@@ -89,10 +93,26 @@ html {
 
 .ultimos-proyectos img {
   -webkit-transition: all .3s ease;
-  transition: all .3s ease; }
+  transition: all .3s ease;
+  min-width: 100%; }
 
 .ultimos-proyectos a:hover img {
   -webkit-transform: scale(1.5);
           transform: scale(1.5); }
+
+.footer {
+  color: #fff;
+  background-color: #222; }
+
+.footer p {
+  margin-bottom: 0; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  .bienvenidos {
+    background-image: url(../images/fondo-bienvenido-grande.jpg);
+    background-size: cover; } }
 
 /*# sourceMappingURL=estilos.css.map */
