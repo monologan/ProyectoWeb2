@@ -17,7 +17,7 @@ html {
   color: white; }
 
 .fixed-top {
-  background: #000000ab; }
+  background: #000000d3; }
 
 .navbar-toggler {
   font-size: 1.25rem;
@@ -75,5 +75,24 @@ html {
 
 .servicios h3 {
   font-weight: bold; }
+
+.ultimos-proyectos {
+  background-color: #424141;
+  color: #fff; }
+
+.ultimos-proyectos a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
+.ultimos-proyectos img {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease; }
+
+.ultimos-proyectos a:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5); }
 
 /*# sourceMappingURL=estilos.css.map */

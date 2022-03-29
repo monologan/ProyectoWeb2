@@ -21,7 +21,7 @@ html {
 }
 
 .fixed-top {
-    background: #000000ab;
+    background: #000000d3;
 }
 
 .navbar-toggler {
@@ -66,7 +66,6 @@ html {
 }
 
 .btn-primary:hover {
-    
     background-color: #a76253;
     border-color: #f05f40;
 }
@@ -75,25 +74,45 @@ html {
     background-color: #f05f40;
     color: #fff;
 }
+
 .btn-secondary {
     background-color: #fff;
-    color:black;
+    color: black;
 }
 
 .custom-toggler.navbar-toggler {
     border-color: rgb(253, 255, 255);
-    
-  } 
+}
 
-.servicios .fa-solid{
+.servicios .fa-solid {
     color: #f05f40;
     font-size: 6rem;
-    
 }
 
 .servicios h3 {
     font-weight: bold;
 }
 
+// estilos ultimos proyectos
 
+.ultimos-proyectos {
+    background-color: #424141;
+    color: #fff;
+}
 
+.ultimos-proyectos a {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.ultimos-proyectos img {
+    
+    transition: all .3s ease;
+}
+
+.ultimos-proyectos a:hover img {
+    transform: scale(1.5);
+}
